@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg" >
+
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/chatNameview"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:text="Loading..."
+            android:background="@drawable/button_bg"
+            android:drawableStart="@drawable/docicon"
+
+            />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10sp"
+        android:layout_below="@+id/title">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/smsview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+    </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true">
+            <EditText
+                android:id="@+id/smsbox"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/cursor"
+                android:layout_weight="1"
+                android:ems="10"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:hint="Type Your sms here"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20sp"/>
+            <Button
+                android:id="@+id/sendButton"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/send"/>
+
+
+
+
+        </LinearLayout>
+
+</RelativeLayout>

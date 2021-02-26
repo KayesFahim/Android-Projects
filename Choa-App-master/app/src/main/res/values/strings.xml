@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Choa</string>
+    <string name="minimum_password">You Have To Input At Least 6 Password</string>
+    <string name="auth_failed">Authentication Failed</string>
+</resources>

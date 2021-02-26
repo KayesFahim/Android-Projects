@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/chat_left" >
+
+    <LinearLayout
+        android:id="@id/info"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp" >
+
+
+        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+            android:id="@+id/dpimage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/dp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/titlename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/nameview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold"
+                    android:text="Nick Name"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/mydate"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#ffffff"
+                    android:text="06/30/2020 11:50 PM"
+                    android:paddingTop="5dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_below="@id/titlename"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_height="fill_parent" >
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/smsview"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Messege"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/app_bg" >
+
+
+    <LinearLayout
+        android:id="@+id/titetop"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dNview"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:text="Loading....."
+            android:background="@drawable/button_bg"
+            android:drawableStart="@drawable/docicon" />
+
+    </LinearLayout>
+    <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+        android:id="@+id/dimageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/dp"
+        app:c_background_color="@color/colorPrimary"
+        app:c_border="true"
+        android:layout_below="@+id/titetop"
+        android:layout_marginTop="10dp"
+        app:c_border_color="#4A97E4"
+        app:c_border_width="5.5dp"
+        app:c_shadow="true"
+        app:c_shadow_color="#000"
+        app:c_shadow_gravity="end"
+        app:c_shadow_radius="5.5" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/dimageView"
+        android:id="@+id/patientlist" />
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp" >
+
+             <Button
+                 android:id="@+id/donline"
+                 android:background="@drawable/loginbtn"
+                 android:layout_width="100dp"
+                 android:layout_marginBottom="10dp"
+                 android:layout_height="35dp" />
+
+
+            <Button
+                android:id="@+id/dlogout"
+                android:background="@drawable/logoutbtn"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/donline"
+                >
+
+             </Button>
+
+
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/logo"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

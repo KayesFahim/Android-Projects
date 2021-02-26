@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/two_side_round"
+        android:layout_marginStart="20dp" >
+
+        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+            android:id="@+id/dimage"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:src="@drawable/dp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/dnameview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:text="Nick Name"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_below="@id/dnameview"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_height="fill_parent" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:id="@+id/dtagview"
+                    android:text="Tag "/>
+
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
