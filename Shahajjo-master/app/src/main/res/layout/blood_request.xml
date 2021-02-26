@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/graylight"
+    android:layout_height="match_parent"
+    tools:context=".Services.BloodBank.Blood_Request" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:id="@+id/serchbar" >
+
+
+        <Button
+            style="@style/FirebaseUI.Button"
+            android:text="Submit Your Request"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:id="@+id/requestbtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <Button
+        style="@style/FirebaseUI.Button"
+        android:id="@+id/btnblood"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_below="@id/serchbar"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="Blood Request"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/btnblood"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/recycleview"
+        android:layout_height="fill_parent" />
+
+
+</RelativeLayout>

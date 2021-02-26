@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Dark Coin</string>
+
+    // Adword Code
+    <string name="banner">ca-app-pub-7314980641738466/3715337164</string>
+    <string name="Interstitial">ca-app-pub-7314980641738466/6570447240</string>
+    <string name="Reward">ca-app-pub-7314980641738466/7416625055</string>
+    <string name="appid">ca-app-pub-7314980641738466~7023617669</string>
+    <string name="fbbannerads">1183057518551866_1339026622954954</string>
+
+
+    //
+
+    <string name="Ans">Choose The correct Answere</string>
+    <string name="correct">Congratulation ! Your Answer Is correct</string>
+    <string name="error">Sorry ! Your Answer Is Wrong</string>
+
+
+    <string name="minimum_password">You Have To Input At Least 6 Password</string>
+    <string name="auth_failed">Authentication Failed</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title"> </string>
+    <string name="nav_header_subtitle"> </string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="fbbannerad">IMG_16_9_APP_INSTALL</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1">
+
+    <Button
+        android:background="@drawable/btn_round"
+        android:textColor="@color/text"
+        android:id="@+id/hotline"
+        android:text="সকল কল সেন্টারের তালিকা"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350sp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_height="60sp"
+        android:layout_above="@id/covidtestbtn" />
+
+    <Button
+        android:id="@+id/covidtestbtn"
+        android:textColor="@color/text"
+        android:layout_width="350sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_height="60sp"
+        android:background="@drawable/btn_round"
+        android:text="কোভিড-১৯ ল্যাব টেস্ট করতে"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/hospitallist"/>
+
+    <Button
+        android:id="@+id/hospitallist"
+        android:background="@drawable/btn_round"
+        android:textColor="@color/text"
+        android:text="হাসপাতালের সেবা পেতে"
+        android:layout_width="350dp"
+        android:layout_height="60sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+
+    <Button
+        android:background="@drawable/btn_round"
+        android:textColor="@color/text"
+        android:id="@+id/healthcomplex"
+        android:text="নিকটস্থ স্বাস্থ্য কমপ্লেক্স লাইন"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_height="60sp"
+        android:layout_below="@id/hospitallist" />
+
+
+
+</RelativeLayout>

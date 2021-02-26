@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1">
+
+    <Button
+        android:id="@+id/plasmabtn"
+        android:textColor="@color/text"
+        android:layout_width="300sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:layout_height="60sp"
+        android:background="@drawable/btn_round"
+        android:layout_marginBottom="20dp"
+        android:text="COVID-19 Plasma ?"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/pdonorbtn"/>
+
+    <Button
+        android:id="@+id/pdonorbtn"
+        android:textColor="@color/text"
+        android:layout_width="300sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:layout_height="60sp"
+        android:background="@drawable/btn_round"
+        android:text="Be a Plasma Donor"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/plist"/>
+
+    <Button
+        android:id="@+id/plist"
+        android:background="@drawable/btn_round"
+        android:textColor="@color/text"
+        android:text="Plasma Donor List"
+        android:layout_width="300dp"
+        android:layout_height="60sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+
+    <Button
+        android:background="@drawable/btn_round"
+        android:textColor="@color/text"
+        android:id="@+id/plasmareq"
+        android:text="Request For Plasma"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300sp"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_height="60sp"
+        android:layout_below="@id/plist" />
+
+
+</RelativeLayout>

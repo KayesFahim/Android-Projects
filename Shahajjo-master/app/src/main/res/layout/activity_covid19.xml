@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1"
+    tools:context=".Services.Covid19Activity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/covid19title"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:textColor="@color/color_one"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="COVID 19" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bg_login"
+        android:layout_below="@+id/covid19title"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="fill_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_login"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:id="@+id/line1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/tracker"
+                    android:paddingTop="20dp"
+                    android:drawableTop="@drawable/ic_stat"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text"
+                    android:text="Tracker"
+                    android:background="@drawable/card_button"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="25dp"/>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="20dp"
+                    android:drawableTop="@drawable/ic__symptom"
+                    android:textSize="20dp"
+                    android:id="@+id/symptoms"
+                    android:textStyle="bold"
+                    android:textColor="@color/text"
+                    android:text="Symptoms"
+                    android:background="@drawable/card_button"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/line1"
+                android:id="@+id/line2"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="20dp"
+                    android:id="@+id/test"
+                    android:drawableTop="@drawable/ic_test"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text"
+                    android:text="Live Test"
+                    android:background="@drawable/card_button"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="25dp"/>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="20dp"
+                    android:id="@+id/precticable"
+                    android:drawableTop="@drawable/ic_practicable"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text"
+                    android:text="Practicable"
+                    android:background="@drawable/card_button"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/line2"
+                android:id="@+id/line3"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/plasma"
+                    android:paddingTop="20dp"
+                    android:drawableTop="@drawable/ic_plasma"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text"
+                    android:text="Plasma"
+                    android:background="@drawable/card_button"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="25dp"/>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="20dp"
+                    android:id="@+id/cautious"
+                    android:drawableTop="@drawable/ic_warning"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text"
+                    android:text="Cautious"
+                    android:background="@drawable/card_button"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/line3"
+                android:id="@+id/line4"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="20dp"
+                    android:id="@+id/news"
+                    android:drawableTop="@drawable/ic_news"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text"
+                    android:text="News"
+                    android:background="@drawable/card_button"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="25dp"/>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="20dp"
+                    android:drawableTop="@drawable/ic_helpdesk"
+                    android:textSize="20dp"
+                    android:id="@+id/help"
+                    android:textStyle="bold"
+                    android:textColor="@color/text"
+                    android:text="Help Desk"
+                    android:background="@drawable/card_button"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

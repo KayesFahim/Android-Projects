@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kayeswap.darkcoin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:noHistory="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".resultview.RewardVideoActivity"></activity>
+        <activity android:name=".resultview.PaymentActivity" />
+        <activity android:name=".resultview.PaymentRequestActivity" />
+        <activity android:name=".resultview.InvoiceActivity" />
+        <activity android:name=".ProfileActivity" /> <!-- Sample Adob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7314980641738466~7023617669" />
+
+        <activity android:name=".StartActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Result" />
+        <activity android:name=".resultview.ErrorPage" />
+        <activity android:name=".gamelevel.Level_1" />
+        <activity android:name=".gamelevel.Level_2" />
+        <activity android:name=".gamelevel.Level_3" />
+        <activity android:name=".gamelevel.Level_4" />
+        <activity android:name=".gamelevel.Level_5" />
+        <activity android:name=".gamelevel.Level_6" />
+        <activity android:name=".gamelevel.Level_7" />
+        <activity android:name=".gamelevel.Level_8" />
+        <activity android:name=".gamelevel.Level_9" />
+        <activity android:name=".gamelevel.Level_10" />
+        <activity android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+    </application>
+
+</manifest>

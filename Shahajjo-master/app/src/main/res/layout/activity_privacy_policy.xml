@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Services.Covid19.CoronaNews.NewsDetails">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topview">
+
+
+        <TextView
+            android:id="@+id/titleview"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_one"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="Privacy Policy" />
+
+        <TextView
+            android:id="@+id/blogview"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/titleview"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/privacy" />
+
+        <LinearLayout
+            android:id="@+id/privacycheckline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/blogview">
+
+
+
+        <CheckBox
+            android:id="@+id/policycheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/blogview"
+            android:text="Accept Our Policy " />
+
+            <TextView
+                android:id="@+id/link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_one"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_centerHorizontal="true"
+                android:text="Read More" />
+
+
+        </LinearLayout>
+
+
+            <Button
+                android:layout_below="@+id/privacycheckline"
+                android:id="@+id/accept"
+                style="@style/FirebaseUI.Button"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"
+                android:text="Accept"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

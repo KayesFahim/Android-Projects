@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".resultview.RewardVideoActivity">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner">
+    </com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adview2"
+        android:layout_below="@id/adview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner">
+    </com.google.android.gms.ads.AdView>
+
+
+
+    <Button
+    android:id="@+id/show_video_button"
+    android:layout_width="200dp"
+        android:layout_marginBottom="5dp"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+        android:background="@drawable/button_design"
+        android:layout_above="@+id/show_video_button1"
+    android:text="Watch Video - 1" />
+    <Button
+        android:id="@+id/show_video_button1"
+        android:layout_width="200dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_design"
+        android:layout_above="@id/show_video_button2"
+        android:layout_centerHorizontal="true"
+        android:onClick="VideoAdStart"
+        android:text="Watch Video - 2" />
+    <Button
+        android:id="@+id/show_video_button2"
+        android:layout_width="200dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_design"
+        android:onClick="VideoAdStart"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:text="Watch Video - 3" />
+    <Button
+        android:id="@+id/show_video_button3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_design"
+        android:layout_below="@id/show_video_button2"
+        android:layout_centerHorizontal="true"
+        android:onClick="VideoAdStart"
+        android:text="Watch Video - 4" />
+    <Button
+        android:id="@+id/show_video_button4"
+        android:layout_width="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_design"
+        android:layout_below="@id/show_video_button3"
+        android:layout_centerHorizontal="true"
+        android:onClick="VideoAdStart"
+        android:text="Watch Video - 5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:id="@+id/coin"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/show_video_button"
+        android:layout_marginBottom="40dp"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adview3"
+        android:layout_above="@id/adview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner">
+    </com.google.android.gms.ads.AdView>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

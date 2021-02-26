@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "193092094935",
+    "firebase_url": "https://shahajjo-1419f.firebaseio.com",
+    "project_id": "shahajjo-1419f",
+    "storage_bucket": "shahajjo-1419f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193092094935:android:9e8fc291364b6548",
+        "android_client_info": {
+          "package_name": "com.kayeswap.shahajjo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193092094935-butml90cf5iba9rprd0n09rns70eh6r0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kayeswap.shahajjo",
+            "certificate_hash": "1625df1fe29f20972cff00b2892ddc0e0890bcce"
+          }
+        },
+        {
+          "client_id": "193092094935-26f04q8ln9llprep2t63djsh42nemtfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeA6fuwGIbrCrcQ8qTOPWYMnQWqUDaIRs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193092094935-26f04q8ln9llprep2t63djsh42nemtfo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

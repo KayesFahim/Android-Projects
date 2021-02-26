@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Services.BloodBank.BloodGroups.B_Negative">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <SearchView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:queryHint="Search Blood Donor"
+            android:id="@+id/bns"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/reg_box" />
+
+        <Button
+            android:layout_marginLeft="5dp"
+            style="@style/FirebaseUI.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:id="@+id/apbead"
+            android:text="Be A Donor" />
+
+    </LinearLayout>
+
+        <Button
+
+            style="@style/FirebaseUI.Button"
+            android:layout_below="@id/top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aptitle"
+            android:textSize="25sp"
+            android:paddingBottom="20dp"
+            android:text="B- Negative Blood Donor List"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+    <ListView
+        android:layout_below="@id/aptitle"
+        android:id="@+id/apblood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</RelativeLayout>

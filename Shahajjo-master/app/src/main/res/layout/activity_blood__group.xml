@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Services.BloodBank.Blood_Group"
+    android:background="@drawable/blood_group_bg">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linetwo"
+            android:layout_marginBottom="30dp"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bb_btn"
+                android:textColor="@color/text"
+                android:text="A +"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/an"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:background="@drawable/bb_btn"
+                android:textSize="30sp"
+                android:textColor="@color/text"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:text="A -"
+                android:layout_marginLeft="30dp"/>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linetwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/newblood"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/abp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="@drawable/bb_btn"
+            android:textSize="30sp"
+            android:textColor="@color/text"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="AB +"
+            android:layout_marginRight="30dp"/>
+
+
+        <Button
+            android:id="@+id/abn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="@drawable/bb_btn"
+            android:textSize="30sp"
+            android:textColor="@color/text"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="AB -"
+            android:layout_marginLeft="30dp"/>
+        </LinearLayout>
+
+
+    <Button
+        android:id="@+id/newblood"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/low_round_btn"
+        android:gravity="center_horizontal"
+        android:text="Be a Donor"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/linethree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newblood"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="@drawable/bb_btn"
+            android:textSize="30sp"
+            android:textColor="@color/text"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="B +"
+            android:layout_marginRight="30dp"/>
+
+
+        <Button
+            android:id="@+id/bn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="@drawable/bb_btn"
+            android:textSize="30sp"
+            android:textColor="@color/text"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="B -"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linethree"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/op"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="@drawable/bb_btn"
+            android:textSize="30dp"
+            android:textColor="@color/text"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="O +"
+            android:layout_marginRight="30dp"/>
+
+
+        <Button
+            android:id="@+id/on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="@drawable/bb_btn"
+            android:textSize="30sp"
+            android:textColor="@color/text"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="O -"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+                android:background="@color/task_bg"
+    android:layout_height="match_parent"
+    tools:context=".Result">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/resultad1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner">
+    </com.google.android.gms.ads.AdView>
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_marginTop="30sp"
+        android:layout_below="@id/resultad1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2sp"
+            android:layout_marginBottom="10sp"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="Your Current Point: "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/currentcoin"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    </LinearLayout>
+
+    <TextView
+        android:layout_below="@id/top"
+        android:id="@+id/cong"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulation !"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/name"
+        android:text="@string/app_name"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_below="@id/cong"
+        android:textColor="@color/Green"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:id="@+id/ty"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="You Got 10 Points"/>
+
+    <Button
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@drawable/button_design"
+        android:layout_above="@id/playagain"
+        android:text="Claim Your Reward"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/claim" />
+    <Button
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_design"
+        android:text="Play Agin"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/playagain" />
+
+    <Button
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playagain"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_design"
+        android:text="Earn 5 Coin"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/reward" />
+    <Button
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reward"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_design"
+        android:text="Back To Profile"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/backtopf" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/resultad2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

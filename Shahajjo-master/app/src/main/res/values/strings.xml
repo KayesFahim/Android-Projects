@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_id">411791509231092</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">fae5a4dad2ef2ac0148a6651abc1bea5</string>
+    <string name="ak_login_protocol_scheme">ak411791509231092</string>
+    <string name="app_name">SHAHAJJO For Corona</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Name</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="forgot">Forgot Or Lost Your Password ?</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="btn_ContactUs">Contact Us</string>
+    <string name="btn_back">BACK</string>
+    <string name="btn_about">ABOUT</string>
+    <string name="minimum_password"> You Have To Give Atleast 6 Password</string>
+    <string name="auth_failed"> Login Error! Try Again?</string>
+    <string name="title_activity_blood__bank">Blood_Bank</string>
+    <string name="title_activity_hospital__booking">Hospital_Booking</string>
+    <string name="title_activity_tutor">Tutor</string>
+    <string name="title_activity_house">House</string>
+    <string name="blood">Blood Group</string>
+    <string name="dev">Developed By Kayes Fahim</string>
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/8691691433</string>
+    <string name="version">Version 3.0.0</string>
+    <string name="privacy">SHAHAJJO will Provide medical service. You will find all medical services and
+        you help as well as. You can use all services without any information about you.But If you want to be
+        a donor so that u have to give some information, like
+        your name, phone, blood group and location.
+        your information will show in public for help
+        purpose.It will affective or effective Admin will Not
+        responsible. You give information for your own wish.
+        If you agree then check, Otherwise exit Please.
+    </string>
+    <string name="rules">1. Write Full Name Or Surname(Surname suitable)\n
+    2. Write Your Phone Number With your Country Code\n
+    3. Write Blood Group Like A+, A-, AB+,AB- (Block Latter)\n
+    4. Dont Write Like A positve, ab(+) ve \n
+    5. Location Like Bashundhar, Dhaka or Gulshan Dhaka\n
+    6. Dont write 240, abc road, xyz, dhaka - 1000\n
+    7. Outsite Of Dhaka Write Like UPzilla name, District Name</string>
+
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="start_phone_auth">Start</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="instant_validation">(instant validation)</string>
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+    <string name="default_notification_channel_id">Shahjjo For Corona</string>
+
+
+    <string name="symptoms">Seek immediate medical attention if you have serious symptoms. Always call before visiting your doctor or health facility.
+People with mild symptoms who are otherwise healthy should manage their symptoms at home.
+On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days.</string>
+
+    <string name="covidplasma">If you have fully recovered from COVID-19, you may be able to help patients currently fighting the infection by donating your plasma. Because you fought the infection, your plasma now contains COVID-19 antibodies. These antibodies provided one way for your immune system to fight the virus when you were sick, so your plasma may be able to be used to help others fight off the disease.</string>
+    <string name="covPlasma">Convalescent plasma is the liquid part of blood that is collected from patients who have recovered from the novel coronavirus disease, COVID-19, caused by the virus SARS-CoV-2. COVID-19 patients develop antibodies in the blood against the virus. Antibodies are proteins that might help fight the infection. Convalescent plasma is being investigated for the treatment of COVID-19 because there is no approved treatment for this disease and there is some information that suggests it might help some patients recover from COVID-19.</string>
+    <string name="whocanPlasma"> People who have fully recovered from COVID-19 for at least two weeks are encouraged to consider donating plasma, which may help save the lives of other patients. COVID-19 convalescent plasma must only be collected from recovered individuals if they are eligible to donate blood. Individuals must have had a prior diagnosis of COVID-19 documented by a laboratory test and meet other donor criteria. Individuals must have complete resolution of symptoms for at least 14 days prior to donation. A negative lab test for active COVID-19 disease is not necessary to qualify for donation. </string>
+    <string name="noncovid">You can consider donating blood! One blood donation can save up to three lives. The COVID-19 pandemic has caused unprecedented challenges to the Global blood supply. Donor centers have experienced a dramatic reduction in donations due to the implementation of social distancing and the cancellation of blood drives. Blood is needed every day to provide lifesaving treatments to a variety of patients. You can help ensure that blood continues to be available for patients by finding a blood donor center near you to schedule your donation. Several sites also have information about donating plasma.</string>
+
+
+</resources>

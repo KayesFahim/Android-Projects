@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "501863183567",
+    "firebase_url": "https://dark-coin.firebaseio.com",
+    "project_id": "dark-coin",
+    "storage_bucket": "dark-coin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501863183567:android:57d5cd059c87ba42",
+        "android_client_info": {
+          "package_name": "com.kayeswap.darkcoin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501863183567-8bir2qul858qgm9jntnc75cuq9kgh805.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kayeswap.darkcoin",
+            "certificate_hash": "6dc32f2411338c8c1c23cd422c0ce2302a08cec7"
+          }
+        },
+        {
+          "client_id": "501863183567-58s701hvdm3sgi1tic674vrddecas4lk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOGxvk7tfsC9yF6mnP9Jm422OXrctGuuk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501863183567-58s701hvdm3sgi1tic674vrddecas4lk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e70554</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorwhite">#FFFFFF</color>
+    <color name="Green">#066b02</color>
+    <color name="task_bg">#99d1f7</color>
+    <color name="text">#fa3698</color>
+    <color name="primaryDark">#292b3d</color>
+    <color name="graylight">#fafafa</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+
+
+</resources>

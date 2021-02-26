@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LoginActivity"
+    android:background="@drawable/bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/input_group">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Payment"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Request Your Payment"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/input_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_top"
+            android:hint="Coin"
+            android:id="@+id/paymentCoin"
+            android:inputType="number"
+            android:padding="15dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bottom"
+            android:hint="Bkash Number"
+            android:id="@+id/paymentMethod"
+            android:inputType="number"
+            android:padding="15dp" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/paymentbtn"
+            android:background="@drawable/buttonstyle"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Submit Request"
+            android:textAllCaps="false"
+            android:textColor="#FE5295"
+            android:textSize="17sp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+         android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_one"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="Covid 19 - Test" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/que"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/title" >
+
+
+        <CheckBox
+            android:id="@+id/q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="High Fever" />
+
+        <CheckBox
+            android:id="@+id/q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/q1"
+            android:text="Dry Cough" />
+        <CheckBox
+            android:id="@+id/q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/q2"
+            android:text="Shortness of Breathing" />
+
+        <CheckBox
+            android:id="@+id/q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/q3"
+            android:text="Diarrhoea" />
+
+        <CheckBox
+            android:id="@+id/q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/q4"
+            android:text="Low Pressure And Chest Pain" />
+        <CheckBox
+            android:id="@+id/q6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/q5"
+            android:text="Loss of Speech or movement" />
+        <CheckBox
+            android:id="@+id/q7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/q6"
+            android:text="Did you go outside within 14 days" />
+        <CheckBox
+            android:id="@+id/q8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/q7"
+            android:text="Did you go covid affected area within 14 days" />
+        <CheckBox
+            android:id="@+id/q9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/q8"
+            android:text="Did you meet people who has been high fever and cough within 14 days" />
+        <CheckBox
+            android:id="@+id/q10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/q9"
+            android:text="Did you meet people within 14 days, who was high fever and cough" />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/que"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/testBtn"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            style="@style/FirebaseUI.Button"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="Test" />
+
+        <Button
+            android:id="@+id/btnMore"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            style="@style/FirebaseUI.Button"
+            android:text="Know More About Covid 19"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:padding="5dp" />
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>
